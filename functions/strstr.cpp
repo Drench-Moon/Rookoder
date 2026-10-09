@@ -14,3 +14,4 @@ char* my_strstr(char *s, char *p) {
             return &s[i];
         }
     }
+}
