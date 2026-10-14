@@ -27,7 +27,7 @@ int main()
     // }
     int j = 1;
     int mealpay = 0;
-    for (; j < N + 1; j ++) {         //优先选择餐费少的，从小到大依次相加判断
+    for (; j < N + 1; j ++) {         //优先选择餐费少的成员，从小到大依次相加判断
         mealpay += A[j - 1];          //餐费总和
         int fare = 0;
         fare = (j / K) * C;
