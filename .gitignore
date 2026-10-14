@@ -1,0 +1,5 @@
+# Compiled binaries
+*.out
+*.o
+*.exe
+output/
